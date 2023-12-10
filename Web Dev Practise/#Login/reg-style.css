@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: -3px;
+}
+.slide-left{
+    margin: 0;
+}
+.shade{
+    width: 645px;
+    height: 620px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.left-img{
+    height: 100vh;
+    margin: 0;
+}
+.left-head{
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    color: white;
+}
+.left-p{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    color: white;
+}
+.right-head{
+    margin-top: 50px;
+}
+.slide-right{
+    margin-right: 120px;
+}
+.login{
+    margin-bottom: -11px;
+    font-size: 21px;
+}
+.welcome{
+    font-size: 14px;
+}
+.email,.password{
+    width: 400px;
+    height: 36px;
+    margin-bottom: 16px;
+    border: none;
+    border-bottom: 1px solid lightslategray;
+}
+.forgot{
+    text-decoration: none;
+    color: black;
+    margin-left: 144px;
+}
+.submit{
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+}
+.register{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+.google{
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+}
+.logo{
+    width: 22px;
+    height: 22px;
+}
+a{
+    text-decoration: none;
+}

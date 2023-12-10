@@ -1,0 +1,17 @@
+body{
+    background: url('http://trapteammovement.com/wp-content/uploads/2023/09/y2mate.is-Thunderstorm-And-Lightning-Strikes-At-Night-Background-Video-Effects-HD-V3-Ex0WOrI8-720p-1695729503.mp4');
+    background: no-repeat center center fixed;
+    background-size: cover;
+}
+body::before {
+    content: "";
+    background: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7; /* Adjust the opacity if needed /
+    filter: alpha(opacity=70); / For older IE */
+}

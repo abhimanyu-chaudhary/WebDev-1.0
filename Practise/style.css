@@ -1,0 +1,25 @@
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+#first{
+    color: palevioletred;
+}
+.first{
+    color: black;
+    background-color: yellow;
+}
+.second{
+    color: red;
+    background-color: yellow;
+}
+.third{
+    color: black;
+    background-color: yellow;
+}
+body {
+
+    background-color: rgb(235, 235, 235);
+}

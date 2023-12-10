@@ -1,0 +1,175 @@
+.box{
+    height: 747px;
+    width: 50px;
+    background-color: black;
+    margin: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+
+.head{
+    display: none;
+    transition: .3s;
+}
+.ri-menu-3-fill{
+    margin-left: 10px;
+    transition: .3s;
+}
+.btn{
+    background-color: black;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 30px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+    
+i{
+    display: hidden;
+    transition: .3s;
+}
+span{
+    display: none;
+    transition: .3s;
+}
+.profile-pic{
+    display: none;
+    transition: .3s;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+    height:30px;
+}
+.search{
+    display: none;
+    transition: .3s;
+}
+.ri-search-line{
+    margin-left: 40px;
+    transition: .3s;
+}
+.profile{
+    display: flex;
+    color: white;
+    gap: 10px;
+    height: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(28, 28, 29);
+    transition: .3s;
+}
+h5{
+    display: none;
+    transition: .3s;
+}
+p{
+    display: none;
+    transition: .3s;
+}
+.ri-logout-box-line{
+    display: none;
+    transition: .3s;
+    
+}
+
+.box:hover{
+    height: 747px;
+    width: 270px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+.head:hover{
+    margin-top: -30px;
+    margin-bottom: px;
+    margin-left: 60px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.ri-menu-3-fill:hover{
+    margin-left: 70px;
+    /* margin-top: 10px; */
+}
+.btn:hover{
+    background-color: black;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 230px;
+    margin-bottom: 10px;
+    height: 54px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+i:hover{
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+span:hover{
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 700;
+    /* margin-top: -10px; */
+}
+.profile-pic:hover{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logo:hover{
+    margin-left: 20px;
+    margin-top: 20px;
+    height:30px;
+}
+.search:hover{
+    width: 226px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: -40px;
+    color: white;
+}
+.ri-search-line:hover{
+    margin-left: 40px;
+}
+.profile:hover{
+    display: flex;
+    color: white;
+    gap: 10px;
+    height: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(28, 28, 29);
+}
+h5:hover{
+    margin-top: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+p:hover{
+    margin-top: -19px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ri-logout-box-line:hover{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}

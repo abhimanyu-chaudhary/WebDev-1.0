@@ -1,0 +1,38 @@
+.container{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 250px auto;
+    background-color: white;
+    border: 3px solid black;
+    border-top-color: transparent;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.loader{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 3px 0px 0px 2px;
+    background-color: white;
+    border: 3px solid black;
+    border-bottom-color: transparent;
+    animation-name: moves;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from {}
+    to {
+        transform: rotate(360deg);    
+    }
+}
+
+@keyframes moves {
+    from {}
+    to {
+        transform: rotate(360deg);    
+    }
+}

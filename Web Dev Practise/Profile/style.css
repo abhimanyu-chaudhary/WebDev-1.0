@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    gap: 30px;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    border-radius: 12px;
+    z-index: 10;
+    transition: .7s;
+}
+.name{
+    display: none;
+}
+.name:hover{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 2%;
+    bottom: 15%;
+}
+.card-img:hover{
+    scale: 1.3;
+}

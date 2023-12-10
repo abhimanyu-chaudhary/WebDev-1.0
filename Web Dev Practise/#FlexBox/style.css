@@ -1,0 +1,46 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.container{
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px;
+    background-color: aquamarine;
+    position: relative;
+    transition: .7s;
+}
+i{
+    font-size: 50px;
+    position:absolute;
+    top:35%;
+    left:37%;
+    color: black;
+    transition: .7s;
+}
+.txt{
+    position: absolute;
+    font-size: 20px;
+    top: 65%;
+    left: 32%;
+    color: black;
+    transition: 1s;
+    display: none;
+    
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container:hover{
+    background-color: rgb(27, 68, 54);
+      
+}
+.txt:hover{
+    color: white;
+    display: block;
+}
+i:hover{
+    color: white;
+}

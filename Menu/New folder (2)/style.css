@@ -1,0 +1,42 @@
+.box{
+    width: 100px;
+    height: 60px;
+    margin: 40px auto;
+    background-color: black ;
+    border-radius: 10px;
+    transition: .3s;
+}
+.head{
+    transition: .3s;
+}
+.logo{
+    margin-left: 15px;
+    margin-top: 13px;
+    transition: .3s;
+}
+.ri-menu-line{
+    margin-left: 18px;
+    margin-top: -30px;
+    color: white;
+    transition: .3s;
+}
+
+.box:hover{
+    width: 300px;
+    height: 80px;
+    margin: 40px auto;
+    background-color: black ;
+    border-radius: 10px;
+}
+.head:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    
+}
+.logo:hover{
+    margin-left: 15px;
+    margin-top: 13px;
+}
