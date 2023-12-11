@@ -56,6 +56,7 @@
 
 let users = [];
 
+let alert = document.getElementById('alert');
 let UserContainer = document.getElementById('printuser');
 function render(){
     UserContainer.innerHTML = "";
@@ -74,17 +75,24 @@ function render(){
 
     }
     
-
     
+    // let printUsername = document.getElementById('printusername');
+    // printUsername.appendChild(username);
 
+    // let printUserage = document.getElementById('printuserage')
+    // printUserage.appendChild(userage);
 
+}
 
-    let printUsername = document.getElementById('printusername');
-    printUsername.appendChild(username);
+function showAlert(){
+    alert.classList.remove('d-none');
 
-    let printUserage = document.getElementById('printuserage')
-    printUserage.appendChild(userage);
+    alert.classList.add('alert');
 
+    setTimeout(() => {
+        alert.classList.remove('alert');
+        alert.classList.add('d-none');
+    }, 2000);
 
 }
 
@@ -99,10 +107,13 @@ function process(){
 
     if(user.age>=18 && user.age<=24){
         users.push(user);
+        alert.innerText = 'User Added Successfully!';
+        showAlert()
         render()
     }
     else{
-        alert('You are not eligible');
+        alert.innerText = 'User is not eligible for competition!';
+        showAlert()
     }
 
     

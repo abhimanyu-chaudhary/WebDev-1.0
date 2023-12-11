@@ -55,3 +55,15 @@ input{
     font-size: 15px;
     margin: 10px 4px;
 }
+.d-none{
+    display: none;
+}
+.alert{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    background-color: maroon;
+    color: whitesmoke;
+}
