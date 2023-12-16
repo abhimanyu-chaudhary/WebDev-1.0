@@ -24,7 +24,7 @@ function print(){
     }
 }
 
-function RandomExamCenter(centers){
+function RandomExamCenter(){
     let numberofCenters = centers.length;
     let randomCenter = Math.floor(Math.random()*numberofCenters);
     return centers[randomCenter];
@@ -33,7 +33,7 @@ function RandomExamCenter(centers){
 function addUser(){
     let name = document.getElementById('name');
     let email = document.getElementById('email');
-    let center = RandomExamCenter(centers);
+    let center = RandomExamCenter();
     
     let ifUserExist = users.filter((user)=>{
         return user.email == email.value;
