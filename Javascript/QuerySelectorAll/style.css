@@ -49,3 +49,26 @@
     font-size: 35px;
     color: white;
   }
+
+  .btn{
+    position: fixed;
+    bottom: 20px;
+    margin: auto;
+    width: 82vw;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 14px;
+    border: none;  
+    margin-top: 10px;  
+}
+.sidebar{
+    display: none;
+    width: 20vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 2s;
+    background-color: rgb(72, 72, 247);
+}
