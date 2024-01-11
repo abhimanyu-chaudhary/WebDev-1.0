@@ -1,0 +1,29 @@
+.container{
+    margin: 50px 100px;
+}
+.product{
+    width: 180px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(209, 203, 203);
+    border: .5px solid black;
+    font-weight: 700;
+}
+.product-menu{
+    width: 180px;
+    height: 160px;
+    border-radius: 4px;
+    border: none;
+}
+.menus{
+    width: 180px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(209, 203, 203);
+    border: none;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.d-none{
+    display: none;
+}
