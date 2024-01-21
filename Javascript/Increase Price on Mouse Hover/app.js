@@ -13,4 +13,3 @@ function mouseIn(){
         document.getElementById('hotel-price').innerText = 'Rs.1000';
      }
 }
-
